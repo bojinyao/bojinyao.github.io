@@ -13,6 +13,10 @@ footer {
     height: 30px;
     background-color: gray;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 h6 {
@@ -28,6 +32,11 @@ header {
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     border-bottom-width: 2px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 ul {
@@ -91,6 +100,8 @@ p {
 section {
     position: relative;
     margin: 30px auto;
+    margin-bottom: 60px;
+    margin-top: 80px;
     width: 960px;
     background-color: #ffffff;
     text-align: center;
