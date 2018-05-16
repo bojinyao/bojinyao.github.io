@@ -25,7 +25,7 @@ h6 {
 }
 
 /* Header Styles */
-header {
+nav {
     font-family: Georgia, Times, "Times New Roman", serif;
     border-bottom: 6px #cccccc;
     background-color: #ffffff;
@@ -49,6 +49,7 @@ ul {
 
 li {
     float: right;
+    color: gray;
 }
 
 li a {
@@ -65,12 +66,7 @@ li a:hover {
 .header_wrapper {
     width: 960px;
     margin: 0 auto;
-}
-
-.header_wrapper::after{
-    content: '';
-    display:block;
-    clear:both;
+    overflow: hidden;
 }
 
 .nameColor {
