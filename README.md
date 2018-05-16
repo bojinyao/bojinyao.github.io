@@ -1,2 +1,3 @@
-# Basic-Portfolio
-Homework #1
+# bojinyao.github.io
+
+My own website hosted by github
