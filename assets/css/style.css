@@ -17,6 +17,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 h6 {
@@ -113,7 +114,7 @@ section {
     margin-bottom: 20px;
 }
 
-.content_title {
+header {
     font-size: 30px;
     color: teal;
     float: left;
@@ -140,6 +141,11 @@ hr {
     float: left;
     margin-right: 30px;
     margin-bottom: 50px;
+    margin-left: 2px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 .image_container_right {
@@ -147,6 +153,14 @@ hr {
     float: left;
     margin-bottom: 50px;
     clear: right;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.image_hover_effect:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .image_topic {
@@ -154,7 +168,7 @@ hr {
     bottom: 10%;
     background-color: teal;
     color: white;
-    width: 100%;
+    width: 300px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
@@ -162,6 +176,7 @@ hr {
 
 .portfolio_images {
     max-width: 300px;
+    max-height: 300px;
 }
 
 /* Contact Styles */
