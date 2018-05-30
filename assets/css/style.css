@@ -64,7 +64,7 @@ li a:hover {
     color: #111;
 }
 
-.header_wrapper {
+.nav_wrapper {
     width: 960px;
     margin: 0 auto;
     overflow: hidden;
@@ -189,7 +189,7 @@ form {
     color: gray;
     font-size: 14px;
     padding: 4px;
-    width: 98%
+    width: 96%
 }
 
 textarea {
@@ -198,7 +198,7 @@ textarea {
     border: 1px solid lightgray;
     font-size: 15px;
     padding: 4px;
-    width: 98%;
+    width: 96%;
     height: 250px;
 }
 
@@ -213,4 +213,54 @@ textarea {
 
 .submit_button:hover {
     background-color: darkcyan;
+}
+@media screen and (max-width: 980px) {
+    .nav_wrapper {
+        width: 95%;
+    }
+    section {
+        max-width: 95%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav_wrapper {
+        width: 95%;
+    }
+    section {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 640px) {
+    nav {
+        position: static;
+    }
+    .nav_wrapper {
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .left_nav {
+        display: inline-block;
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    ul {
+        width: 210px;
+        margin: 0 auto;
+    }
+
+    section {
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer {
+        position: static;
+    }
 }
