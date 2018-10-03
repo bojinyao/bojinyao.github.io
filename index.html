@@ -1,51 +1,241 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Max Yao</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-        <nav>
-            <div class="nav_wrapper">
-                <div class="logo">
-                    <a class="nameColor" href="index.html">Max Yao</a>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title>Max Yao</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="assets/css/replacer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Ranga', 'Julius Sans One', 'Montserrat']
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand text-dark mr-0 ml-4" href="index.html">
+            <img src="assets/icons/numbers-23-dark.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Max Yao
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="portfolio.html">Portfolio </a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+
+    <div id="hero-01" style="background: url('assets/images/etienne-girardet-360034-unsplash.jpg') center top; background-size: cover;">
+        <div class="container d-flex flex-column" style="min-height: 105vh;">
+            <div class="row my-auto">
+                <div class="col-lg-5 col-md-8 col-sm-12">
+                    <h1 class="display-2 font-weight-normal mb-2" style="font-family: 'Montserrat', sans-serif;">If two
+                        things don't make a right,&nbsp;Try three!</h1>
+                    <a class="btn btn-warning btn-lg mr-2" href="mailto:bojinyao@berkeley.edu">Send Email</a>
+                    <a class="btn btn-light bg-white btn-lg" href="assets/doc/Resume.pdf" target="_blank">Resume</a>
                 </div>
-                
-                <div class="left_nav">
-                    <ul>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="portfolio.html">Portfolio</a> | </li>
-                        <li><a href="index.html">About</a> | </li>
+            </div>
+        </div>
+    </div>
+
+    <div class="pt-5 pb-5 mb-2">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+                    <h2 class="display-4 mb-1">Welcome</h2>
+                    <hr class="mt-3 mb-5">
+                    <h3 class="h4 mb-3">About Me</h3>
+                    <p class="lead mb-4 text-secondary mr-5">
+                        Hi there, I'm a third year, Computer Science Major at The University of California Berkeley,
+                        class of 2020 <span class="font-weight-bold text-warning">GO BEARS!!</span> Welcome to my
+                        personal website where you can find some helpful links to some of the projects I've done,
+                        especially in the <em>Portfolio</em> page. If you're interested in getting into contact with
+                        me, please visit the <em>Contact</em> page.
+                    </p>
+                    <p class="lead mb-4 text-secondary mr-5">
+
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 col-md-10 col-sm-12 mx-auto">
+                    <img class="w-100 my-5 pb-4" src="assets/images/anthony-hall-359446-unsplash.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+                    <h3 class="h4 mb-3">Experiences</h3>
+                    <ul class="text-secondary mb-4">
+                        <li class="lead mb-2">
+                            CSM Junior Mentor | UC Berkeley
+                            <ul>
+                                <li>
+                                    Hold weekly one hour sessions and manage emailing for a group of four students in Data Structures to walk through assigned worksheets, teach class core-concepts, and answer any questions related to coursework.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="lead mb-2">
+                            Summer General Intern | <a class="text-primary" href="https://onepiecework.com/">OnePiece Work</a> |San Francisco
+                            <ul>
+                                <li>
+                                    Assisted in maintaining company’s website.
+                                </li>
+                                <li>
+                                    Shadowed the startup technology company founder and management, and assisted in daily operations.
+                                </li>
+                                <li>
+                                    Planned live events to promote the company’s brand, generate awareness in the investor community, and target potential new customers.
+                                </li>
+                                <li>
+                                    Interviewed existing clients to better understand their needs to assist management to improve company’s services.
+                                </li>
+                                <li>
+                                    Researched and contacted potential new clients to discuss the company’s value propositions and distinguished services. And tracked data in excel model to create internal reporting for management.
+                                </li>
+                                <li>
+                                    Participated in negotiations with new clients and vendors to establish long-term partnerships.
+                                </li>
+                                <li>
+                                    Managed the company’s social media accounts and public relations: Facebook + Twitter.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="lead mb-2">
+                            Beauty & Joy of Computing Academic Intern | UC Berkeley
+                            <ul>
+                                <li>
+                                    Assisted students with lab practices and homework problems. Explained and taught various concepts to advance students’ knowledge of computer science. Helping students with their Midterm, and Final projects. Main Language: Python3
+                                </li>
+                            </ul> 
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
-        </nav>
-    
-        <section>
-            <div class="main_container">
-                <!-- <div class="content_title"> -->
-                <header>
-                    <h1><strong>About Me</strong></h1>
-                </header>
-                <!-- </div> -->
-                <hr>
-                <div class="main_content">
-                    <img src="assets/images/headshot.jpg" alt="Smiley face" style="max-height: 170px; float: left; margin-right: 15px;">
-                    <p class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia rutrum quam quis dignissim. Fusce tristique eget ipsum vitae mattis. Sed tempor ante mauris, varius imperdiet odio porta quis. Sed sit amet lacinia magna, ac tempus ligula. Nullam eu magna non mi aliquet eleifend tempus aliquam ante. Maecenas elementum arcu quis nulla consectetur cursus. Phasellus porttitor neque ut nulla vehicula, at sodales enim viverra. Maecenas ac quam ac quam bibendum aliquet sed vitae nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam aliquet non dolor vitae consectetur. Aenean ornare dignissim enim sit amet facilisis. Cras at dolor nec risus malesuada varius tincidunt vitae turpis. Phasellus non mi laoreet ipsum dapibus tincidunt. Morbi non quam eget ipsum tincidunt consequat. Nunc imperdiet rhoncus justo, in porta nisi feugiat condimentum.</p>
-                    <p class="main_text">Pellentesque enim dui, sollicitudin ultricies eros vitae, tincidunt rhoncus massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum malesuada urna, id posuere purus dignissim ullamcorper. In quis mauris lectus. Sed quis malesuada risus, congue fringilla erat. Mauris quis nisi et lorem dictum convallis non vel sapien. Sed porta ullamcorper dui, sed maximus tellus blandit id. Pellentesque non fringilla purus, et scelerisque nibh. Pellentesque mollis eu diam non dapibus. Nam consequat purus vel nulla vulputate congue. Maecenas iaculis euismod nulla.</p>
-                    <p class="main_text">Vestibulum laoreet mollis sapien, quis commodo massa vestibulum non. Duis sed iaculis sapien, non cursus elit. Nunc ullamcorper sed nibh sit amet tempor. Mauris dictum dapibus magna. Nam quis orci dolor. Integer pulvinar eget dui ac malesuada. Sed vel vulputate nisi, non mattis tortor. Mauris tortor magna, fringilla sed consequat at, porta vitae arcu. Phasellus facilisis diam eu mollis porta. Phasellus aliquam, tortor ac iaculis ullamcorper, sem ligula faucibus lacus, sit amet tincidunt nulla erat sed nisl. Nunc suscipit faucibus libero, hendrerit pellentesque est aliquam sed. Sed sollicitudin sapien non erat luctus lobortis. Duis eget neque vitae dui tincidunt hendrerit.</p>
-                    <p class="main_text">Praesent sed elit leo. Phasellus tincidunt urna in elit placerat, non fermentum purus ultricies. Sed eget pharetra turpis. Praesent vitae libero vehicula, tincidunt ligula in, efficitur nisi. Pellentesque dignissim rhoncus arcu, a elementum metus laoreet eu. Suspendisse vitae bibendum sem. Nulla dictum gravida leo a cursus. Quisque eu consequat est. Curabitur molestie hendrerit nulla sed vulputate. In enim lorem, blandit nec odio egestas, rhoncus tincidunt urna. Vivamus varius erat sit amet aliquet aliquet. Mauris quis feugiat nibh. Praesent vestibulum velit diam, vitae vulputate est mattis lobortis. Integer semper pharetra pretium. Curabitur pellentesque malesuada porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            <div class="row">
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto">
+                    <h3 class="h4 mb-3">Relevent Classes</h3>
+                    <p class="lead mb-4 text-secondary mr-5">
+                        Below are some of the classes I've taken that might be of interest to you:
+                    </p>
                 </div>
             </div>
-        </section>
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-sm-12 ml-auto">
+                    <ul class="text-secondary list-unstyled mb-4">
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>CS170 Advanced Algorithms</li>
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>CS61C Computer Architecture</li>
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>CS61B Data Structures</li>
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>CS61A Computer Programs</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12 mr-auto">
+                    <ul class="text-secondary list-unstyled mb-4">
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>CS70 Discrete Math &amp; Probability Theory</li>
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>Stat134 Advanced Probability Theory</li>
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>Math110 Proof based Linear Algebra</li>
+                        <li class="lead mb-2">
+                            <i class="fa fa-book mr-2 text-secondary"></i>1 Year of Calculus</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <footer>
-            <h6>Copyright &#169;</h6>
-        </footer>
-    </body>
+
+    <!-- Footer -->
+    <div class="pt-5 pb-1" id="footer-01">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-6 text-center text-lg-left">
+                    <ul class="list-inline my-4 my-0">
+                        
+                        <li class="list-inline-item">
+                            <a class="btn-link h3 text-secondary p-1" href="https://www.facebook.com/max.yao.7" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="list-inline-item">
+                            <a class="btn-link h3 text-secondary p-1" href="https://github.com/bojinyao" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a class="btn-link h3 text-secondary p-1" href="https://bitbucket.org/maxyao/" target="_blank">
+                                <i class="fab fa-bitbucket"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a class="btn-link h3 text-secondary p-1" href="https://www.linkedin.com/in/bojinyao/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <hr class="mb-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 text-secondary text-center text-lg-left">
+                    <p class="pb-2">&copy; 2017 &mdash; 2018, Max Yao</p>
+                </div>
+                <div class="col-lg-6 col-md-12 text-secondary text-center text-lg-right">
+                    <ul class="list-inline pb-2">
+                        <li class="list-inline-item">
+                            <a class="py-2 text-secondary" href="mailto:bojinyao@berkeley.edu">bojinyao@berkeley.edu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/replacer.js"></script>
+</body>
+
 </html>
